@@ -10,6 +10,9 @@ sap.ui.define([
         return Controller.extend("ui5dockerized.controller.View1", {
             onInit: function () {
 
+            },
+            onButtonClick: function() {
+                alert("Button clicked!");
             }
         });
     });
